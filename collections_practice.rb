@@ -17,4 +17,10 @@ end
 
 def swap_elements(array)
   if(array.length > 2)
-    temp = 
+    temp = array[1]
+    array[1] = array[0];
+    array[0] = temp;
+  end
+  return array 
+end
+
