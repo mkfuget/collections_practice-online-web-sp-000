@@ -52,6 +52,6 @@ def find_a(array)
 end
 
 def add_s(array)
-  return array.map{|x| x << "s"
+  return array.map{|x| x << "s"}
 end
 
