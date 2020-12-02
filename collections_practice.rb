@@ -43,7 +43,7 @@ end
 
 def kesha_maker(array)
   out = []
-  array.each{ |x| out.push("#{x[0..1]}$#{x[3..-1]}")
+  array.each{ |x| out.push("#{x[0..1]}$#{x[3..-1]}")}
   return out #array.map{ |x| "#{x[0..1]}$#{x[3..-1]}"}
 end
 
