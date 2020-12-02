@@ -42,4 +42,4 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map{
+  return array.map{ |x| "#{x[0..1]}$#{x[3..-1]}"
