@@ -47,7 +47,8 @@ def kesha_maker(array)
   return out #array.map{ |x| "#{x[0..1]}$#{x[3..-1]}"}
 end
 
-def find_a
-  return array.select()
+def find_a(array)
+  return array.select{|x| x.start_with?("a")}
+end
 
 
