@@ -43,3 +43,4 @@ end
 
 def kesha_maker(array)
   return array.map{ |x| "#{x[0..1]}$#{x[3..-1]}"
+end
