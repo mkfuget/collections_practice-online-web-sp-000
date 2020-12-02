@@ -15,4 +15,6 @@ def sort_array_desc(array)
   end
 end
 
-  
+def swap_elements(array)
+  if(array.length > 2)
+    temp = 
