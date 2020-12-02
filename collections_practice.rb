@@ -51,4 +51,7 @@ def find_a(array)
   return array.select{|x| x.start_with?("a")}
 end
 
+def add_s(array)
+  return array.map{|x| x << "s"
+end
 
