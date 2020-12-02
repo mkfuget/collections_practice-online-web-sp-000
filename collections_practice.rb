@@ -55,3 +55,10 @@ def add_s(array)
   return array.map.with_index{|x, i| (i == 1) ? x : ( x << "s")}
 end
 
+def sum_array(array)
+  out = 0;
+  array.do each |x|
+    out+=x;
+  end
+  return out
+end
