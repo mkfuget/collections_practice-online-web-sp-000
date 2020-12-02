@@ -12,6 +12,7 @@ def sort_array_desc
     elsif a < b
       1
     end
+  end
 end
 
   
